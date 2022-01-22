@@ -44,12 +44,30 @@
     }
    
     #id1{
-    margin-top: 50px;
-    margin-right: 35px;
+    margin-top: 100px;
+    margin-right: 20px;
     padding: 20px 20px 20px 10px;
     border-top-width: 10px;
+    }
+
+   #id2{
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    padding: 20px 20px 20px 10px;
+    border-radius: 8px;
+    width: 600px;
+    height: 250px;
+    background-color:rgba(128, 180, 180, 0.555);
+    }
+
+  
+
+   #new-p{
+     color: cornsilk;
    }
 
+  
    .dropdown{
       margin-right: 80px;
      
@@ -57,11 +75,53 @@
       border-radius: 10px;
       
      }
-    </style>
+
+     .dropbtn {
+  background-color: black;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border:10px;
+  border-radius: 8px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:rgb(7, 10, 1);
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+  z-index: 2;
+  border-radius: 10px;
+}
+
+.dropdown-content a {
+  color: rgb(231, 224, 224);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: rgb(190, 101, 101);}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #62919e;}
+    
+    
+
+  </style>
+   
  
 </head>
 
-<body style="background-color: black;">
+<body style="background-color: black;"> <!--style="background-color: black;"-->
       
       <div class="row" style="background: rgb(204, 93, 115);">
        
@@ -69,17 +129,15 @@
               <div class="container-fluid">
                 <a  class="navbar-brand" href="#">
                   <b><h2><u>WELCOME TO MY PORTFOLIO</u></h2></b>
-                  <a  class="dropdown"><!--right list-->
-                    <button class="btn  btn-dark dropdown-toggle  " type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Social media Links
-                    </button>
-                    <ul class="dropdown-menu" >
-                      <li><button class="dropdown-item" type="button">LinkDin</button></li>
-                      <li><button class="dropdown-item" type="button">Instagram</button></li>
-                      <li><button class="dropdown-item" type="button">FaceBook</button></li>
-                     </ul>
-                  </a><!--right list end-->
-                </a>
+
+                  <div class="dropdown">
+                    <button class="dropbtn">Social Media Handels</button>
+                    <div class="dropdown-content">
+                      <a href=" https://www.linkedin.com/in/suraj-sonawane-5117aa174/">LinkedIn</a>
+                      <a href="https://github.com/suraj-sonawane/">Git-Hub</a>
+                    </div>
+                  </div>
+                  
               </div><!--end of cointaner fluid-->>
         </nav>
        </div><!--end of 1st row-->
@@ -105,8 +163,43 @@
                     <button type="button" class="list-group-item list-group-item-action" style="color:rgb(155, 15, 15);"> AUTOMATION TESTING</button>
                     </button>
                   </div>
-
+                  <div id="id2" class="container">
+                    <h4 id="new-h4" style="color: cornsilk;" >Education/Academic :</h4>
+                    <p id="new-p">
+                      <table  class="table table-dark table-striped border-radius: 60px;">
+                        <thead>
+                          <tr style="color: cornsilk;">
+                            <th scope="col">Degree/Course</th>
+                            <th scope="col" >Institute/College</th>
+                            <th scope="col">University/Board</th>
+                            <th scope="col">Percentage/CGPA</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr style="color: cornsilk;">
+                            <th scope="row color:white">10th</th>
+                            <td>R.C.P.I.T Shirpur</td>
+                            <td>Nashik Board</td>
+                            <td>72%</td>
+                          </tr>
+                          <tr style="color: cornsilk;">
+                            <th scope="row">12th</th>
+                            <td>R.C.P.I.T Shirpur</td>
+                            <td>Nashik Board</td>
+                            <td>61.54%</td>
+                          </tr>
+                          <tr style="color: cornsilk;">
+                            <th scope="row">12th</th>
+                            <td>R.C.P.I.T Shirpur</td>
+                            <td>NMU</td>
+                            <td>6.53</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </p>
+                  </div><!--2ndcontainer close-->
                 </div>
+                
           </div><!--end of 2nd row-->
         </div><!--end of container-->
       
