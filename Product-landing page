@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+
+.body{
+    background: #f2f4f4a2  ;
+}
+
+
+#h2{
+       
+      font-size: 30px;
+      font-family: 'Playfair Display', serif;
+      margin-top: 0px;
+      padding-top: 20px;
+      font-size: 35px;
+     
+    }
+
+.list-items,a{
+
+   text-align: right;
+    margin: 30px;
+    font-size: 13px;
+    margin-right: 5%;
+}
+
+#a1{
+
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.mid{
+    height: 200px;
+    margin: 5px;
+    text-align: center;
+}
+
+#h4{
+    font-size: 23px;
+    font-weight:600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#email{
+    width: 300px;
+    border: 1.5px solid;
+    margin-bottom: 4px;
+}
+
+#button{
+    margin-top: 10px;
+    width: 150px;
+    padding: auto;
+    color: black;
+    font-weight: 800;
+    background-color: yellow;
+    cursor: pointer;
+
+}
+
+
+#button:hover {
+    background-color: orange;
+}
+
+
+::placeholder{
+    font-family: 'Cairo', sans-serif;
+    padding: 6px;
+    font-weight: 500;
+}
+
+.info{
+ border: 1px solid;
+ height:150px;
+
+}
+
+
+#img2{
+    margin-left: 200px;
+    width: 70px;
+    height:70px;
+    font-size: 400px;
+}
+
+#title{
+    
+      margin-top: 5px;
+      padding-top:5px;
+      font-size: 30px;
+      font-weight: 500;
+      margin-bottom: 0;
+     
+     
+}
+
+#p{
+    margin-left: 280px ;
+    margin-top: 8px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#HowItWorks{
+    margin-top: 80px;
+    margin-left: 400px;
+    margin-right: 500px;
+
+    height: 300px;
+    width:500px;
+}
+
+#Pricing{
+    display: inline-block;
+    margin-top: 80px;
+    border: 1px solid black;
+    width: 280px;
+    height: 330px;
+    margin-left: 120px;
+    
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+   
+}
+
+#para{
+    margin-top: 20px;
+    font-size: 17px;
+    
+    
+}
+
+#headr{
+    text-align: center;
+    background-color: rgba(150, 161, 161, 0.698);
+    font-size: 19px;
+    font-weight: 500;
+    height: 60px;
+    padding: 15px 30px 15px 30px;
+    margin-bottom: 20px;
+}
+
+.button{
+    color: black;
+    background-color: rgba(255, 187, 0, 0.931);
+    background-position: center;
+    width: 80px;
+    height: 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 3px;
+}
+ 
+.button:hover {
+    background-color: orange;
+}
+
+.footer{
+    margin : 40px 40px 0px 120px;
+   
+    background-color: rgba(150, 161, 161, 0.698);
+    border-radius: 2px;
+    width: 1090px;
+    height: 70px;
+    
+
+}
+
+#foot{
+   
+    text-align: right;
+    margin: 10px;
+    font-size: 13px;  
+ 
+}
+
+#a2{
+     padding-top: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+     margin: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#last{
+    margin-right: 3%;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+<body class="body">
+    <div class="container-fluid"><!--container-fluid started-->
+        <div class="row"  ><!--row started-->
+            <div class="col" id="h2">
+            <img id="img" src="https://img.icons8.com/ios/50/000000/trumpet.png" alt="trumpet">
+                  Original trombones
+            </div><!--1st col/h2/img close-->
+               
+            <div class="col">
+                <ul class="list-items">
+                    
+                    <a  id="a1" href="#title">Features</a>
+                    <a  id="a1" href="#HowItWorks">How It Works</a>
+                    <a  id="a1" href="#Pricing">Pricing</a>
+               
+                </ul>
+            </div><!--2nd col/list-items-->
+        </div><!--row closed-->
+          
+            <div class="container"><!--container statred-->
+                <div class="mid">
+                  <h4 id="h4">Handcrafted, home-made masterpieces</h4>
+                  <form>
+                  <input  for="email" type="email" name="email" id="email"   placeholder="Enter Your Email adress... " required><br>
+                  <input id="button" type="submit" value="GET STARTED"></input></form>
+                </div>
+            </div><!--end of container/mid/h4-->
+
+            
+                <div class="row" ><!--title id stated-->
+                    <div class="col" id="title">
+                        <svg id="img2" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                        width="64" height="64"
+                        viewBox="0 0 172 172"
+                        style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#e67e22"><path d="M58.99063,43.86c-3.34594,-1.11531 -6.88,-0.01344 -9.00313,2.80844l-15.5875,20.78781c-9.03,12.02656 -13.58531,26.96906 -12.81937,42.07281c1.67969,33.0025 28.87719,59.83719 61.92,61.08687c0.84656,0.02687 1.67969,0.05375 2.52625,0.05375c16.78344,0 32.5725,-6.35594 44.70656,-18.03313c12.75219,-12.28187 19.76656,-28.78312 19.76656,-46.48031c0,-14.0825 -4.46125,-27.46625 -12.9,-38.7l-0.01344,-0.01344l-23.22,-30.55688c-4.64937,-6.11406 -4.71656,-14.70062 -0.18812,-20.89531l1.10187,-1.505c1.935,-2.63375 2.08281,-6.14094 0.38969,-8.9225c-1.70656,-2.80844 -4.93156,-4.31344 -8.19687,-3.80281c-16.17875,2.49938 -28.50094,16.09813 -29.46844,32.43813c-0.04031,0.24188 -0.06719,0.48375 -0.06719,0.73906v30.90625c0,1.88125 -0.7525,3.61469 -2.12313,4.90469c-1.37063,1.29 -3.15781,1.935 -5.0525,1.80063c-3.50719,-0.22844 -6.26188,-3.3325 -6.26188,-7.06813v-13.975c0,-3.52062 -2.16344,-6.53062 -5.50937,-7.64594zM70.23781,80.59813c4.12531,0.25531 8.07594,-1.14219 11.08594,-3.96406c2.96969,-2.78156 4.67625,-6.71875 4.67625,-10.79031v-30.36875c0.01344,-0.12094 0.02687,-0.24188 0.02687,-0.36281c0.55094,-12.75219 10.09156,-23.435 22.76313,-25.38344l-1.10187,1.51844c-6.62469,9.04344 -6.51719,21.6075 0.26875,30.53l23.20656,30.53c7.37719,9.82281 11.27406,21.52688 11.27406,33.84906c0,15.48 -6.14094,29.92531 -17.29406,40.66188c-11.15312,10.73656 -25.82687,16.31312 -41.33375,15.73531c-28.90406,-1.08844 -52.70187,-24.56375 -54.16656,-53.44094c-0.67187,-13.2225 3.30562,-26.29719 11.20688,-36.81875l15.5875,-20.78781v13.96156c0,7.98187 6.06031,14.62 13.80031,15.13062z"></path></g></g></svg> 
+                        Premium Materials
+                    </div>
+                </div>
+                <div class="col" id="p"> 
+                    <p >Our trombones use the shiniest brass which is sourced locally. 
+                   This will increase the longevity of your purchase.</p></div>
+                   
+                <div class="row" >
+                    <div class="col" id="title">
+                        
+                        <svg id="img2" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                        width="64" height="64"
+                        viewBox="0 0 172 172"
+                        style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#e67e22"><path d="M168.29125,86.99438l-9.80937,-12.38938l-17.42844,-34.25219c-2.95625,-5.79156 -8.82844,-9.39281 -15.33219,-9.39281h-111.96125c-7.59219,0 -13.76,6.16781 -13.76,13.76v72.24c0,7.59219 6.16781,13.76 13.76,13.76h10.66938c1.59906,7.83406 8.54625,13.76 16.85062,13.76c8.30438,0 15.25156,-5.92594 16.85063,-13.76h66.05875c1.59906,7.83406 8.54625,13.76 16.85062,13.76c8.30438,0 15.25156,-5.92594 16.85063,-13.76h3.78937c5.68406,0 10.32,-4.63594 10.32,-10.32v-22.73625c0,-3.85656 -1.31687,-7.65937 -3.70875,-10.66937zM134.92594,43.48375l15.99063,31.41688l-28.75625,-2.2575c-1.46469,-0.12094 -2.70094,-1.16906 -3.06375,-2.59344l-8.04906,-32.20969h14.67375c3.91031,0 7.43094,2.16344 9.20469,5.64375zM41.28,137.6c-5.68406,0 -10.32,-4.63594 -10.32,-10.32c0,-5.68406 4.63594,-10.32 10.32,-10.32c5.68406,0 10.32,4.63594 10.32,10.32c0,5.68406 -4.63594,10.32 -10.32,10.32zM141.04,137.6c-5.68406,0 -10.32,-4.63594 -10.32,-10.32c0,-5.68406 4.63594,-10.32 10.32,-10.32c5.68406,0 10.32,4.63594 10.32,10.32c0,5.68406 -4.63594,10.32 -10.32,10.32z"></path></g></g></svg>
+
+
+
+                        Fast Shipping</div></div>
+                <div class="col" id="p"> 
+                    <p >We make sure you recieve your trombone as soon as we have finished making it. 
+                        We also provide free returns if<br> you are not satisfied.</p></div>
+
+
+                <div class="row" >
+                    <div class="col" id="title">
+                        <svg id="img2" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                        width="64" height="64"
+                        viewBox="0 0 172 172"
+                        style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#e67e22"><path d="M22.93333,40.13333c-9.43116,0 -17.2,7.76884 -17.2,17.2v51.6c0,9.43116 7.76884,17.2 17.2,17.2h114.66667c9.43116,0 17.2,-7.76884 17.2,-17.2v-51.6c0,-9.43116 -7.76884,-17.2 -17.2,-17.2zM22.93333,51.6h114.66667c3.23951,0 5.73333,2.49383 5.73333,5.73333v51.6c0,3.23951 -2.49383,5.73333 -5.73333,5.73333h-114.66667c-3.23951,0 -5.73333,-2.49383 -5.73333,-5.73333v-51.6c0,-3.23951 2.49383,-5.73333 5.73333,-5.73333zM28.66667,63.06667v40.13333h103.2v-40.13333zM160.53333,68.8v28.66667h5.73333c3.1648,0 5.73333,-2.56853 5.73333,-5.73333v-17.2c0,-3.1648 -2.56853,-5.73333 -5.73333,-5.73333z"></path></g></g></svg>
+
+
+                        Quality Assurance</div>
+                </div>
+                <div class="col" id="p"> 
+                    For every purchase you make,
+                    we will ensure there are no damages or faults and
+                     we will check and test the pitch of<br> your instrument.</p>
+                </div><!--title/img2/p id close-->
+
+
+                <div id="HowItWorks"><!--HowItWorks started-->
+                    <iframe  width="500 " height="300"
+                     src="https://www.youtube.com/embed/y8Yv4pnO7qc"
+                      title="YouTube video player" frameborder="0" 
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div><!--HowItWorks close--><hr>
+
+
+                <div id="Pricing"> <!--Pricing container stared-->
+                    <div class="col">
+                     <header id="headr">TENOR TROMBONE</header>
+                      $600
+                    <p id="para">Lorem ipsum.<br>
+                        Lorem ipsum.<br>
+                        Lorem ipsum dolor.<br>
+                        Lorem ipsum.</p>
+                        <button  class="button" value="Select" name="text-center">select</button>
+                </div><!--col/pricing-->
+            </div><!--Pricing container closed-->
+
+
+                        <div id="Pricing">
+                            <div class="col">
+                                <header id="headr">BASS TROMBONE</header>
+                                $900
+                               <p id="para">Lorem ipsum.<br>
+                                   Lorem ipsum.<br>
+                                   Lorem ipsum dolor.<br>
+                                   Lorem ipsum.</p>
+                                   <button  class="button" value="Select" name="text-center">select</button>
+                                </div><!--col/pricing-->
+                            </div><!--Pricing container closed-->
+ 
+                            <div id="Pricing">
+                                <div class="col" >
+                                    <header id="headr">VALVE TROMBONE</header>
+                                    $1200
+                                   <p id="para">Plays similar to a Trumpet<br>
+                                    Great for Jazz Bands<br>
+                                    Lorem ipsum dolor.<br>
+                                    Lorem ipsum.</p>
+                                       <button  class="button" value="Select" name="text-center">select</button>
+                                    </div><!--col/pricing-->
+                                </div><!--Pricing container closed-->
+
+                                <footer class="footer">
+                                    <ul id="foot">
+                                        <a id="a2"  href="#">Privacy</a>
+                                        <a id="a2"  href="#">Terms</a>
+                                        <a id="a2"   href="#">Contact</a>
+                                        <p id="last">Copyright 2016, Original Trombones</p>
+                                    </ul>
+                                 </footer>
+        </div><!--row closed-->
+    </div><!--container-fluid closed-->
+</body>
+</html>
